@@ -2,17 +2,24 @@
 
 ## Instructions For Local Setup
 1. Clone the Repo <br>
-<pre> 
+``` 
   git clone https://github.com/Jatin6256/Coding_Platform_API.git
-</pre>
+```
 2. Install the dependencies
-<pre> 
+```
   npm i
-</pre>
-3. start the server
-<pre>
+```
+3. Create .env file
+```
+MONGODB_URL="mongodb+srv://<username>:<password>@cluster0.dbsur.mongodb.net/<dbname>?retryWrites=true&w=majority"
+SPHERE_ENDPOINT="<clientid>.problems.sphere-engine.com"
+SPHERE_ACCESS_TOKEN=<sphere_api_access_toke>
+SECRET=<secret>
+```
+4. start the server
+```
   node index.js
-</pre>
+```
 
 ## Testing or Demo
 
